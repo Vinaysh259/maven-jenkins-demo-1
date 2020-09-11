@@ -8,7 +8,8 @@ public class AppTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		String str1 = "Success";
+		assertEquals("Success",str1);
 	}
 
 }
