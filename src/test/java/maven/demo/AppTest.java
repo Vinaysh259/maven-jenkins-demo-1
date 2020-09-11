@@ -8,8 +8,10 @@ public class AppTest {
 
 	@Test
 	public void test() {
-		String str1 = "Success";
-		assertEquals("Success",str1);
+		App app = new App();
+		String message = app.Sample();
+//		String str1 = "Success";
+		assertEquals("sample",message);
 	}
 
 }
