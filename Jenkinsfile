@@ -26,5 +26,16 @@ pipeline{
 					}
 				}
 		 }
+		 
+		 stage('Deployment'){
+		 
+		 	environment{
+		 		docker_cred = credentials('docker-hub')
+		 	}
+		 	steps{
+		 		sh 'printenv'
+		 	}
+		 
+		 }
 	}
 }
