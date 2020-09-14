@@ -11,7 +11,7 @@ public class AppTest {
 		App app = new App();
 		String message = app.Sample();
 //		String str1 = "Success";
-		assertEquals("Sample",message);
+		assertEquals("sample",message);
 	}
 
 }
